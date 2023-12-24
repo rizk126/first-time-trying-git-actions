@@ -3,9 +3,9 @@ FROM openjdk
 
 WORKDIR /application
 
-COPY mohamed.java .
+COPY rizk.java .
 
 
-RUN java mohamed.java
+RUN java rizk.java
 
-CMD java mohamed
+CMD java rizk
